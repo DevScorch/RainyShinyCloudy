@@ -85,16 +85,16 @@ class CurrentWeather {
                         let kelvinToFahrenheit = Double(round(10 * kelvinToFahrenheitPreDivision / 10))
                         self._currentTemp = kelvinToFahrenheit
                         print(self._currentTemp)
+                            }
                         }
+
                     }
                 completed()
 
-                }
-            
 
+                }
+                
             }
             
-        }
         
-    
-    }
+        }
